@@ -23,7 +23,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -200px);
   margin: auto;
   padding: 24px;
   background-color: #fff;
@@ -36,11 +36,16 @@ body {
     width: 48px;
   }
 }
-.testimonial > div {
+
+.testimonial>div {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 16px;
+}
+
+.description {
+  color: #525252;
 }
 
 .credits {
